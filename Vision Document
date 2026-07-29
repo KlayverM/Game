@@ -1,0 +1,200 @@
+# Vision Document
+
+| Projeto | Em definição |
+|----------|--------------|
+| Documento | Vision Document |
+| Versão | v0.2 |
+| Status | Em desenvolvimento |
+| Última atualização | 03/03/2026 |
+
+---
+
+# Objetivo
+
+Definir a visão geral do projeto, seus pilares, objetivos e identidade.
+
+---
+
+# Visão Geral
+
+Um jogo de sobrevivência cooperativo em 3D com câmera isométrica, ambientado em uma dimensão alternativa hostil.
+
+O jogador é transportado para esse mundo desconhecido e precisa sobreviver explorando diferentes regiões, coletando recursos, aprendendo novos conhecimentos, fabricando equipamentos e desenvolvendo sua base.
+
+A história será desenvolvida posteriormente.
+
+O foco atual está na construção de mecânicas sólidas.
+
+---
+
+# Core Fantasy
+
+O jogador deve sentir que:
+
+- Está preso em um mundo desconhecido.
+- Sobreviver exige planejamento.
+- Explorar sempre vale a pena.
+- Sua base representa sua evolução.
+- Conhecimento desbloqueia novas possibilidades.
+- Sempre existe algo novo para descobrir.
+
+---
+
+# Público-Alvo
+
+- Fãs de Survival
+- Coop
+- Exploração
+- Craft
+
+---
+
+# Referências
+
+- Project Zomboid
+- Diablo II
+- Grim Soul
+
+---
+
+# Plataforma
+
+PC (Steam)
+
+---
+
+# Engine
+
+Unity
+
+---
+
+# Pilares
+
+## Exploração
+
+Sempre existe um motivo para sair da base.
+
+## Sobrevivência
+
+O jogador nunca deve sentir que venceu completamente.
+
+## Progressão
+
+Tudo evolui.
+
+- Personagem
+- Equipamentos
+- Conhecimento
+- Base
+
+## Descoberta
+
+A curiosidade sempre deve ser recompensada.
+
+## Cooperação
+
+O jogo deve funcionar sozinho, mas ser mais divertido em coop.
+
+---
+
+# Mundo
+
+O mundo será dividido em regiões.
+
+A Base funciona como um HUB central.
+
+No MVP, todos os jogadores entram juntos em uma expedição.
+
+No futuro, cada jogador poderá explorar regiões diferentes.
+
+---
+
+# Multiplayer
+
+## MVP
+
+P2P
+
+Host + Cliente
+
+## Futuro
+
+Jogadores independentes entre regiões.
+
+---
+
+# Progressão
+
+## Personagem
+
+Subindo de nível aumenta:
+
+- Vida
+- Stamina
+- Força
+
+## Equipamentos
+
+Possuem nível mínimo.
+
+---
+
+# Conhecimento
+
+Obtido através de:
+
+- Livros
+- Pergaminhos
+- Manuscritos
+
+Conhecimento desbloqueia:
+
+- Construções
+- Receitas
+- Equipamentos
+
+---
+
+# Objetivos
+
+## Produto
+
+Criar um jogo cooperativo de sobrevivência.
+
+Publicar na Steam.
+
+## Desenvolvimento
+
+Aprender desenvolvimento profissional de jogos.
+
+Criar uma arquitetura escalável.
+
+---
+
+# Fora do Escopo Inicial
+
+- NPCs
+- História
+- Agricultura
+- Clima
+- Estações
+- Chefes
+- Economia
+- Missões
+
+---
+
+# Changelog
+
+## v0.1
+
+Documento criado.
+
+## v0.2
+
+- Mundo dividido em regiões.
+- Base HUB.
+- Sistema de conhecimento.
+- Multiplayer P2P.
+- Progressão definida.
