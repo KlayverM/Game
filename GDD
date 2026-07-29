@@ -1,0 +1,383 @@
+---
+title: Game Design Document
+version: 0.3
+status: Draft
+last_updated: 2026-03-03
+author: Klayver Matheus
+---
+
+# Game Design Document (GDD)
+
+| Projeto | Em definição |
+|----------|--------------|
+| Documento | Game Design Document |
+| Versão | v0.3 |
+| Status | Em desenvolvimento |
+| Última atualização | 03/03/2026 |
+
+---
+
+# Objetivo
+
+Este documento descreve todas as mecânicas, sistemas e regras do jogo.
+
+Toda decisão de Game Design deverá ser registrada aqui.
+
+---
+
+# 1. High Concept
+
+Um jogo cooperativo de sobrevivência em 3D com câmera isométrica, onde jogadores presos em uma dimensão alternativa precisam explorar regiões perigosas, coletar recursos, construir uma base e adquirir conhecimento para sobreviver e evoluir.
+
+---
+
+# 2. Gênero
+
+- Survival
+- Craft
+- Base Building
+- Coop
+- Exploração
+- Progressão
+
+---
+
+# 3. Plataforma
+
+PC
+
+Steam
+
+---
+
+# 4. Engine
+
+Unity
+
+---
+
+# 5. Multiplayer
+
+## MVP
+
+- P2P
+- Host + Cliente
+- Até 2 jogadores
+
+## Futuro
+
+Jogadores poderão explorar regiões diferentes simultaneamente.
+
+---
+
+# 6. Gameplay
+
+## Objetivos
+
+O jogador deve:
+
+- Sobreviver
+- Explorar
+- Evoluir
+- Construir
+- Aprender
+- Descobrir
+
+---
+
+# 7. Personagem
+
+## Atributos
+
+- Vida
+- Stamina
+- Força
+- Fome
+- Sede
+
+---
+
+## Necessidades
+
+O jogador deverá administrar:
+
+- Alimentação
+- Água
+- Sangramentos
+- Doenças
+
+---
+
+## Status Negativos
+
+### Infecção
+
+A infecção deverá evoluir em estágios.
+
+Caso o jogador não utilize um item de cura apropriado (vacina, combinação de plantas ou outro método definido futuramente), a infecção continuará evoluindo até causar sua morte.
+
+Os métodos de tratamento serão definidos futuramente.
+
+---
+
+# 8. Progressão
+
+## Experiência
+
+No MVP, experiência será obtida apenas eliminando:
+
+- Monstros
+- Animais
+
+Objetivo:
+
+Incentivar que todos os jogadores participem ativamente do combate.
+
+No futuro outras atividades também poderão conceder experiência.
+
+---
+
+## Evolução
+
+Subindo de nível aumenta:
+
+- Vida
+- Stamina
+- Força
+
+---
+
+## Equipamentos
+
+Equipamentos possuirão nível mínimo.
+
+---
+
+# 9. Combate
+
+Referência:
+
+Project Zomboid
+
+Características:
+
+- Tempo real
+- Ataques básicos
+- Esquiva
+- Armas brancas
+- Armas de fogo
+
+O combate deve recompensar posicionamento, preparação e gerenciamento de recursos.
+
+---
+
+# 10. Criaturas
+
+## Hostis
+
+- Zumbis
+- Vampiros
+- Lobisomens
+- Criaturas folclóricas
+
+---
+
+## Neutras
+
+Animais utilizados para:
+
+- Alimentação
+- Recursos
+
+---
+
+## Inteligência Artificial
+
+Todas as criaturas utilizarão inicialmente:
+
+- Patrulha
+- Campo de visão
+- Audição
+- Perseguição
+
+A IA será expandida durante o desenvolvimento.
+
+---
+
+# 11. Mundo
+
+O mundo será dividido em regiões.
+
+A Base funciona como HUB principal.
+
+As regiões serão detalhadas futuramente.
+
+---
+
+# 12. Recursos
+
+Recursos iniciais:
+
+- Madeira
+- Pedra
+- Ferro
+- Cobre
+- Carvão
+- Fibra
+- Pele
+- Ossos
+- Couro
+- Plantas
+- Água
+- Comida
+
+---
+
+# 13. Construção
+
+Toda construção dependerá de bancadas.
+
+Novas bancadas desbloqueiam novas possibilidades de fabricação.
+
+---
+
+# 14. Craft
+
+Receitas serão desbloqueadas através de:
+
+- Livros
+- Pergaminhos
+- Manuscritos
+
+O jogador deverá aprender antes de fabricar.
+
+---
+
+# 15. Equipamentos
+
+## Ferramentas
+
+- Bastões
+- Facas
+- Machados
+- Picaretas
+
+---
+
+## Armas
+
+- Arcos
+- Armas de fogo
+
+Novas categorias serão adicionadas posteriormente.
+
+---
+
+# 16. Inventário
+
+Referência:
+
+Diablo II
+
+Características pretendidas:
+
+- Grid
+- Itens ocupam diferentes tamanhos
+- Gerenciamento de espaço faz parte da estratégia
+
+Os detalhes técnicos serão definidos posteriormente.
+
+---
+
+# 17. Durabilidade
+
+Equipamentos possuem:
+
+- Durabilidade
+- Reparo
+- Quebra
+
+---
+
+# 18. Save
+
+Auto Save sempre que retornar para a Base.
+
+---
+
+# 19. Morte
+
+Ao morrer:
+
+- O jogador perde todos os itens carregados.
+
+A possibilidade de recuperar os itens será definida futuramente.
+
+---
+
+# 20. Funcionalidades Futuras
+
+- NPCs
+- História
+- Chefes
+- Agricultura
+- Clima
+- Estações
+
+---
+
+# 21. Mecânicas em Estudo
+
+Itens desta seção representam ideias aprovadas conceitualmente, mas ainda sem definição técnica.
+
+- Recuperação de itens após morte
+- Evolução da infecção
+- Novos atributos
+- Novos tipos de armas
+- Armaduras
+- Magias (avaliar)
+- Eventos dinâmicos
+- Exploração independente no multiplayer
+
+---
+
+# 22. Princípios de Design
+
+Todo novo sistema deverá seguir estes princípios.
+
+## Exploração sempre deve ser recompensada.
+
+## Conhecimento é tão importante quanto recursos.
+
+## A Base representa a progressão do jogador.
+
+## Cooperação deve ser incentivada, nunca obrigatória.
+
+## O jogador deve tomar decisões significativas.
+
+## O gerenciamento de recursos faz parte da diversão.
+
+## Toda nova mecânica deve fortalecer o Core Loop.
+
+---
+
+# Changelog
+
+## v0.1
+
+Documento criado.
+
+## v0.2
+
+- Definição dos atributos.
+- Sistema de combate.
+- Sistema de experiência.
+- Sistema de construção.
+- Recursos básicos.
+
+## v0.3
+
+- Definida evolução da infecção.
+- Confirmada Stamina.
+- Definida filosofia de ganho de experiência.
+- Consolidado conceito do inventário.
