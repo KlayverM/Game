@@ -1,0 +1,351 @@
+---
+title: Core Loop Document
+version: 0.1
+status: Draft
+last_updated: 2026-03-03
+author: Klayver Matheus
+---
+
+# Core Loop Document
+
+| Projeto | Em definição |
+|----------|--------------|
+| Documento | Core Loop Document |
+| Versão | v0.1 |
+| Status | Em desenvolvimento |
+| Última atualização | 03/03/2026 |
+
+---
+
+# Objetivo
+
+Definir o ciclo principal de gameplay do jogo.
+
+Este documento responde à pergunta:
+
+> "O que o jogador faz durante todo o jogo?"
+
+Todo novo sistema implementado deverá fortalecer ou complementar este ciclo.
+
+---
+
+# Filosofia
+
+O jogador deve sentir que cada expedição gera progresso.
+
+Explorar nunca deve ser apenas um deslocamento. Cada saída da Base deve apresentar riscos, recompensas e novas possibilidades de evolução.
+
+Sobreviver é importante, mas o verdadeiro objetivo é evoluir continuamente.
+
+---
+
+# Core Loop Principal
+
+```text
+Base
+    ↓
+Preparação
+    ↓
+Escolher Região
+    ↓
+Explorar
+    ↓
+Coletar Recursos
+    ↓
+Combater
+    ↓
+Encontrar Conhecimento
+    ↓
+Retornar Vivo
+    ↓
+Organizar Recursos
+    ↓
+Craft
+    ↓
+Construção
+    ↓
+Evolução
+    ↓
+Nova Expedição
+```
+
+---
+
+# Etapa 1 — Base
+
+A Base é o centro da progressão.
+
+Nesta etapa o jogador poderá:
+
+- Organizar inventário
+- Guardar recursos
+- Construir estruturas
+- Fabricar equipamentos
+- Reparar equipamentos
+- Planejar a próxima expedição
+
+Objetivo da etapa:
+
+Urgencia no conhecimento pois sua base pode ser atacada em alguns momentos.
+
+
+---
+
+# Etapa 2 — Preparação
+
+Antes de sair, o jogador deverá decidir:
+
+- Equipamentos
+- Ferramentas
+- Armas
+- Alimentos
+- Água
+- Itens de cura
+
+A preparação faz parte da estratégia.
+
+Escolhas ruins deverão gerar consequências durante a exploração.
+
+---
+
+# Etapa 3 — Escolha da Região
+
+O jogador escolhe livremente qual região deseja explorar.
+
+Cada região possuirá:
+
+- Recursos exclusivos
+- Criaturas específicas
+- Livros únicos
+- Materiais raros
+- Diferentes níveis de risco
+
+Não existe ordem obrigatória de exploração.
+
+---
+
+# Etapa 4 — Exploração
+
+Durante a exploração o jogador deverá:
+
+- Descobrir novos locais
+- Procurar recursos
+- Encontrar estruturas
+- Enfrentar criaturas
+- Buscar conhecimento
+
+A curiosidade deve ser constantemente recompensada.
+
+---
+
+# Etapa 5 — Sobrevivência
+
+Durante a exploração o jogador deverá administrar:
+
+- Vida
+- Stamina
+- Fome
+- Sede
+
+Também poderá sofrer:
+
+- Infecção
+
+Caso não trate a infecção, ela evoluirá gradualmente até causar a morte do personagem.
+
+---
+
+# Etapa 6 — Combate
+
+O combate é inspirado em Project Zomboid.
+
+Características:
+
+- Tempo real
+- Ataques básicos
+- Esquiva
+- Armas brancas
+- Armas de fogo
+
+A experiência é obtida derrotando:
+
+- Monstros
+- Animais
+
+Objetivo desta decisão:
+
+Incentivar que todos os jogadores aprendam e participem do combate durante o MVP.
+
+---
+
+# Etapa 7 — Descoberta
+
+A exploração pode recompensar o jogador com:
+
+- Recursos
+- Livros
+- Pergaminhos
+- Novas receitas
+- Equipamentos
+- Materiais raros
+
+Conhecimento é um dos recursos mais importantes do jogo.
+
+---
+
+# Etapa 8 — Retorno
+
+Retornar vivo à Base representa o encerramento de uma expedição.
+
+Ao retornar:
+
+- Recursos são armazenados
+- Equipamentos podem ser reparados
+- O jogo realiza Auto Save
+- Novas possibilidades de craft são desbloqueadas
+
+---
+
+# Etapa 9 — Evolução
+
+O progresso conquistado durante a expedição é convertido em evolução.
+
+O jogador poderá:
+
+- Construir novas estruturas
+- Fabricar equipamentos melhores
+- Aprender novas receitas
+- Melhorar seus equipamentos
+- Subir de nível
+
+---
+
+# Loops Secundários
+
+## Loop de Combate
+
+```text
+Encontrar inimigo
+        ↓
+Analisar risco
+        ↓
+Combater
+        ↓
+Receber recompensa
+```
+
+---
+
+## Loop de Craft
+
+```text
+Explorar
+      ↓
+Encontrar recursos
+      ↓
+Aprender receita
+      ↓
+Fabricar
+      ↓
+Equipar
+```
+
+---
+
+## Loop de Construção
+
+```text
+Coletar materiais
+        ↓
+Construir
+        ↓
+Expandir Base
+        ↓
+Desbloquear novas possibilidades
+```
+
+---
+
+## Loop de Progressão
+
+```text
+Derrotar criaturas
+        ↓
+Ganhar experiência
+        ↓
+Subir de nível
+        ↓
+Aumentar atributos
+        ↓
+Equipar itens melhores
+```
+
+---
+
+# Regras do Core Loop
+
+Todo novo sistema deverá responder positivamente às seguintes perguntas:
+
+- Incentiva a exploração?
+- Recompensa o jogador?
+- Fortalece a progressão?
+- Enriquece a experiência cooperativa?
+- Torna a preparação mais interessante?
+- Cria decisões significativas?
+
+Caso a resposta seja "não" para a maioria dessas perguntas, o sistema deverá ser reavaliado.
+
+---
+
+# MVP
+
+O ciclo principal do MVP será:
+
+```text
+Base
+↓
+Preparação
+↓
+Escolher Região
+↓
+Explorar
+↓
+Lutar
+↓
+Coletar Recursos
+↓
+Retornar
+↓
+Craft
+↓
+Construção
+↓
+Nova Expedição
+```
+
+---
+
+# Funcionalidades Futuras
+
+Estas mecânicas deverão enriquecer o Core Loop posteriormente:
+
+- NPCs
+- História
+- Chefes
+- Agricultura
+- Clima
+- Estações
+- Eventos Dinâmicos
+- Novos tipos de conhecimento
+
+---
+
+# Changelog
+
+## v0.1
+
+- Documento criado.
+- Definido Core Loop principal.
+- Definidos loops secundários.
+- Definida filosofia de progressão.
+- Integrado ao Vision Document.
