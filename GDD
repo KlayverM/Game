@@ -1,6 +1,6 @@
 ---
 title: Game Design Document
-version: 0.3
+version: 0.4
 status: Draft
 last_updated: 2026-03-03
 author: Klayver Matheus
@@ -48,6 +48,8 @@ PC
 
 Steam
 
+Talvez (android)
+
 ---
 
 # 4. Engine
@@ -62,7 +64,7 @@ Unity
 
 - P2P
 - Host + Cliente
-- Até 2 jogadores
+- Até 2 jogadores podendo aumentar depois.
 
 ## Futuro
 
@@ -178,7 +180,8 @@ O combate deve recompensar posicionamento, preparação e gerenciamento de recur
 - Zumbis
 - Vampiros
 - Lobisomens
-- Criaturas folclóricas
+
+- Criaturas folclóricas em pontos especificos de algumas areas.
 
 ---
 
